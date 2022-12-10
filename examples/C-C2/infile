@@ -1,0 +1,26 @@
+Mode KMC
+Temperature 1300 # unit Kelvin
+Vibmode 1
+Vib    10
+MeshType 1  # 1 for hexagonal grid, 2 for square grid
+
+MeshSize
+2000 2000
+
+TotalStep           1E8
+
+SpeciesNumber  2  #species without MFA
+SpeciesName
+C  C2
+DiffusionBarrier
+0.50 0.49
+InitialSpeciesNumber
+100 100
+
+MergeEventNumber  1
+MergeReaction
+C  C   C2   0.90
+
+DecompEventNumber  1
+DecompReaction
+C2    C     C     2.80

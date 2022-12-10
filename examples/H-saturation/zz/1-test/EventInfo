@@ -1,0 +1,29 @@
+ GasNum:  1                                                 
+ GasName/Pressure/AdsorbRate/AdsorbProduct
+ H2     0.100E+01  0.3570E+04   1 and  1
+ 
+ AllSpecNum: 1                                                 
+ SpecNum:    1                                                 
+ SpecName:   H         
+ ID:          1 
+ MSpecNum:   0                                                 
+ 
+ MergeM
+  0 
+ 
+ MergeMI
+  1 
+ 
+ MergeMBrr
+ 0.900 
+ 
+ MergeMProb
+  0.88E+10 
+ 
+ 
+ ======================================================================
+                                 SpecE                                 
+ ======================================================================
+ DiffBrr/DiffProb/DesorpBrr/DesorpProb/AttBrr/AttProb/DetBrr/DetProb/DecompNum
+ 0.150  0.71E+13   ---    -----    1.640  0.12E+08  0.530  0.24E+12   0
+ 

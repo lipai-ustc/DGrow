@@ -1,0 +1,42 @@
+# TEAKS input file
+Mode KMC
+#Restart  True  # restart will read Status file to restore the model
+
+Temperature 1300 # unit Kelvin
+Vibmode 1
+Vib    10
+MeshType 1  # 1 for hexagonal grid, 2 for square grid
+
+MeshSize
+1000 1000
+#CoreSize
+#5 5
+
+# Total steps and print intervals
+TotalStep           2E5
+#PrintSpecDenStep    1E3
+#SaveStatus          1E3
+
+GasNumber 1
+GasName
+H2
+GasPressure  # in Torr
+0.1
+GasAdsorptionRate
+3570
+GasAdsorbReaction
+#Reactant  Product1  Product2
+H2  H   H
+
+MSpeciesNumber 1
+MSpeciesName
+H
+InitialMSpeciesDensity
+0.0001
+FixMSpeciesDensity
+0
+
+MergeEventNumber  1
+MergeReaction
+#Reactant1 Reactant2 Product  Barrier
+H  H   H2   0.8
