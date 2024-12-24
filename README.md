@@ -18,7 +18,7 @@ In environments where two-dimensional materials grow, the substrate surface host
 #### 1.4 Algorithm Framework of DGrow
 
 The core algorithm of DGrow is based on kinetic Monte Carlo methods. Its workflow diagram is provided separately.
-![image](https://github.com/user-attachments/assets/40de03b5-0418-475f-928a-b3f1c6c9df42)
+<img src="https://github.com/user-attachments/assets/40de03b5-0418-475f-928a-b3f1c6c9df42" width="500">
 
 
 #### 1.5 Main Modules of DGrow
@@ -31,14 +31,14 @@ The core algorithm of DGrow is based on kinetic Monte Carlo methods. Its workflo
 
 #### 1.6 Primary Classes and Attributes of DGrow
 
-Refer to the detailed documentation for class definitions and attributes.
-![image](https://github.com/user-attachments/assets/46d43d6b-7977-44a0-9007-6207f23cf1b8)
+Refer to the detailed documentation for class definitions and attributes.  
+<img src="https://github.com/user-attachments/assets/46d43d6b-7977-44a0-9007-6207f23cf1b8" width="500">
 
 
 #### 1.7 Physical Model of DGrow
 
-DGrow focuses on the growth of two-dimensional materials on substrates, represented by a periodic structure where particles exiting one edge re-enter from the opposite side. Particle diffusion events are modeled by jumps between grid points according to the shortest distance.
-![image](https://github.com/user-attachments/assets/03462e09-71bc-43a2-8ed6-523744dcd975)
+DGrow focuses on the growth of two-dimensional materials on substrates, represented by a periodic structure where particles exiting one edge re-enter from the opposite side. Particle diffusion events are modeled by jumps between grid points according to the shortest distance.  
+<img src="https://github.com/user-attachments/assets/03462e09-71bc-43a2-8ed6-523744dcd975" width="200">
 
 
 #### 1.8 Events Included in DGrow Simulations
